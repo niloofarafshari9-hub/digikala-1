@@ -23,6 +23,10 @@ label[for="super"] {
   font-family: var(--font-family);
   font-size: 14px;
   color: #ffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 6px;
 }
 #super {
   display: none;
