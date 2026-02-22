@@ -1,0 +1,106 @@
+.sale2 {
+  width: 100%;
+  height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sale2-center {
+  width: 100%;
+  max-width: 1350px;
+  height: 100%;
+  border-radius: 16px;
+  border: 1px lightgray solid;
+  overflow: hidden;
+}
+.sale2-center-top {
+  width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sale2-center-top-center {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  width: fit-content;
+  height: 60px;
+}
+.sale2-center-top-center span {
+  font-family: var(--font-family);
+  font-size: 20px !important;
+  color: #000000;
+  margin-right: 7px;
+  font-weight: bold;
+}
+
+.sale2-center-bottom {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide-sale2bottom {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  display: block !important;
+}
+.swiper-slide-sale2bottom-data {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 23px;
+  padding-left: 10px;
+}
+.sale2-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.img-sale2-1 {
+  width: 86px !important;
+  height: 86px !important;
+}
+.swiper-slide-sale2bottom-data .sale2-link span {
+  width: 20px;
+  height: 86px;
+  font-family: var(--font-family);
+  font-size: 28px;
+  color: #19bfd3;
+  font-weight: bold;
+  padding-top: 18px;
+}
+.swiper-slide-sale2bottom-data .sale2-link .sale2-p-1 {
+  font-family: var(--font-family);
+  font-size: 13px;
+  text-align: justify;
+  color: #3c3c57;
+  border-bottom: 1px lightgray solid;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 20px;
+  padding-bottom: 20px;
+  padding-right: 7px;
+}
+.swiper-slide-sale2bottom-data .sale2-link .sale2-p-end {
+  font-family: var(--font-family);
+  font-size: 13px;
+  text-align: justify;
+  color: #3c3c57;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 20px;
+  padding-right: 7px;
+}

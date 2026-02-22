@@ -1,0 +1,122 @@
+.sale {
+  width: 100%;
+  height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sale-center {
+  width: 100%;
+  max-width: 1350px;
+  height: 100%;
+  border-radius: 16px;
+  border: 1px lightgray solid;
+  overflow: hidden;
+}
+.sale-center-top {
+  width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 480px;
+}
+.sale-center-top-center {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+
+  width: fit-content;
+  height: 60px;
+}
+.sale-center-top-center span {
+  font-family: var(--font-family);
+  font-size: 20px !important;
+  color: #000000;
+  margin-right: 7px;
+  font-weight: bold;
+}
+.sale-center-top-left {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  width: fit-content;
+  height: 60px;
+  padding-left: 20px;
+}
+.sale-center-top-left-link {
+  text-decoration: none;
+  color: #25c0d1;
+  font-family: var(--font-family);
+}
+.sale-center-bottom {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide-salebottom {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  display: block !important;
+}
+.swiper-slide-salebottom-data {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 23px;
+  padding-left: 10px;
+}
+.sale-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.img-sale-1 {
+  width: 86px !important;
+  height: 86px !important;
+}
+.swiper-slide-salebottom-data .sale-link span {
+  width: 20px;
+  height: 86px;
+  font-family: var(--font-family);
+  font-size: 28px;
+  color: #19bfd3;
+  font-weight: bold;
+  padding-top: 18px;
+}
+.swiper-slide-salebottom-data .sale-link .sale-p-1 {
+  font-family: var(--font-family);
+  font-size: 13px;
+  text-align: justify;
+  color: #3c3c57;
+
+  border-bottom: 1px lightgray solid;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 20px;
+  padding-bottom: 20px;
+  padding-right: 7px;
+}
+.swiper-slide-salebottom-data .sale-link .sale-p-end {
+  font-family: var(--font-family);
+  font-size: 13px;
+  text-align: justify;
+  color: #3c3c57;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 20px;
+  padding-right: 7px;
+}

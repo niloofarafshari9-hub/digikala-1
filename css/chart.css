@@ -1,0 +1,236 @@
+.chart {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chart-center {
+  width: 100%;
+  max-width: 1350px;
+  height: 440px;
+  border-radius: 16px;
+  border: 1px lightgray solid;
+  overflow: hidden;
+}
+.chart-center-top {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart-center-top .chart-center-top-right {
+  width: 360px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+}
+.chart-center-top .chart-center-top-right span {
+  font-family: var(--font-family);
+  font-size: 15px;
+  color: #000;
+  font-weight: bolder;
+  margin-right: 6px;
+}
+.chart-center-top .chart-center-top-right div {
+  width: 80px;
+  height: 3px;
+  background-color: green;
+  margin-right: 7px;
+}
+.chart-center-top-left {
+  width: 132px;
+  height: 100%;
+}
+.chart-center-top-left-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+}
+.chart-center-top-left-link span {
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: #19bfd4;
+}
+.swiper-slide .shp-chart {
+  border-left: 1px lightgray solid;
+}
+.shp-chart-div1 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+}
+.shp-chart-div1 img {
+  width: 64px;
+  height: 14px;
+  text-align: center;
+}
+.shp-chart-div2 {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.shp-chart-div2 img {
+  width: 130px;
+  height: 130px;
+  cursor: pointer;
+}
+.shp-chart-div3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: 1px green solid;
+  position: absolute;
+  top: 160px;
+  right: 38px;
+  cursor: pointer;
+}
+.shp-chart-div4 {
+  width: 100%;
+  height: 55px;
+  direction: rtl;
+  text-align: right;
+  padding: 4px;
+}
+.shp-chart-div4 span {
+  color: #000;
+  opacity: 0.8;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 12px;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  box-orient: vertical;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 23px;
+}
+.shp-chart-div45{
+  width: 100%;
+  height: 20px;
+display: flex;
+justify-content: flex-start;
+padding: 2px;
+}
+.shp-chart-div45 p{
+  font-family: var(--font-family);
+  font-size: 12px;
+  color: #d32f2f;
+  margin-right: 4px;
+}
+.shp-chart-div5 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.shp-chart-div5-right {
+  width: 34px;
+  height: 20px;
+  background-color: #d32f2f;
+  border-radius: 15px;
+  font-family: var(--font-family);
+  color: whitesmoke;
+  font-size: 15px;
+}
+.shp-chart-div5-left {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+}
+.shp-chart-div5-left h1 {
+  font-family: var(--font-family);
+  color: #000;
+  opacity: 0.8;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.shp-chart-div5-left img {
+  width: 17px;
+  height: 17px;
+}
+
+.shp-chart-div6 {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+.shp-chart-div6 h1 {
+  text-decoration: line-through;
+  font-family: var(--font-family);
+  font-size: 12px;
+  color: lightgray;
+  margin-left: 20px;
+}
+
+.shp-chart-div-last {
+  height: 362px;
+  width: 223px;
+    display: flex;              /* مهم */
+  flex-direction: column;     /* متن زیر دایره */
+  align-items: center;        /* وسط افقی */
+  justify-content: center; 
+}
+.shp-chart-div-last-link {
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+ display: block;
+}
+.shp-chart-div-last-link .dayer {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 100% !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  outline: 2px #34c6d8 solid !important;
+  margin-right:12px ;
+}
+.shp-chart-div-last-link .vasat svg {
+  padding-top: 8px;
+  padding-left: 4px;
+}
+.shp-chart-div-last-link .text {
+  color: #6c6d88;
+  font-family: var(--font-family);
+  font-size: 14px;
+  margin-top: 10px !important;
+  margin-left: 10px;
+}
+.swiper-slide .shp-chart .shp-chart-div7{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 16px;
+  column-gap: 2px;
+}
+ .swiper-slide .shp-chart .shp-chart-div7 .hourse1,.minute1,.seconde1,.colon1{
+  font-family: var(--font-family);
+  color:#D32F2F ;
+  font-size: 12px;
+} 

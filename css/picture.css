@@ -1,0 +1,30 @@
+.picture {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+}
+.picture-center {
+  width: 100%;
+  max-width: 1350px;
+  height: 100%;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.picture-center-item {
+  width: 320px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9px;
+  margin-top: 15px !important;
+}
+.picture-center-item-link{
+  text-decoration: none;
+}
+.picture-center-item-link img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}

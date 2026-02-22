@@ -1,0 +1,128 @@
+.line {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line-center {
+  max-width: 1350px;
+  height: 110px;
+  background-color:#ecf1f1;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+  column-gap: 550px;
+}
+.line-center {
+
+  background-image: url(../image/line/golbackground.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.line-link {
+  text-decoration: none;
+}
+.line-center .line-center-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-right: 20px;
+}
+.line-center-right-fresh {
+  width: 66px !important;
+  height: 61px !important;
+
+}
+.line-center-right-text{
+  width: 250px;
+  height: 27px;
+}
+.line-center .line-center-right img {
+  width: 250px;
+  height: 28px;
+}
+
+.line-center .line-center-right-div {
+  width: 112px;
+  height: 28px;
+  background-color: #029a49;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-center .line-center-right-div span {
+  font-family: var(--font-family);
+  color: whitesmoke;
+  font-size: 14px;
+  text-align: center !important;
+}
+.line .line-center-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.line-center-left-div {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.line-center-left-div .posi{
+position: absolute;
+width: 30px;
+height: 20px;
+background-color: #D32F2F;
+border-radius: 10px;
+bottom: 0;
+right: 0;
+}
+.line-center-left-div .posi span{
+font-size: 14px;
+font-family: var(--font-family);
+color: whitesmoke;
+padding: 1px;
+}
+.line .line-center-left-frute {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  position: relative;
+}
+.line-center-left-div img {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  position: relative;
+}
+.line-center-left-kala {
+  width: 142px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line-center-left-kala span {
+  color: #029a49;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: bold;
+}
+.line-center-left-kala img {
+  width: 28px;
+  height: 28px;
+  padding-top:5px ;
+}

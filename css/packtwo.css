@@ -1,0 +1,33 @@
+.packtwo {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+}
+.packtwo-center {
+  width: 100%;
+  max-width: 1370px;
+  height: 100%;
+  display: flex;
+  justify-content:space-between !important;
+
+}
+.packtwo-center-item {
+  width: 675px;
+  height: 260px;
+  
+  display: flex !important;
+  justify-content:center !important;
+  align-items: center;
+  padding: 8px;
+  margin: 4px;
+}
+.packtwo-center-item-link{
+  text-decoration: none;
+}
+.packtwo-center-item-link img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 12px;
+}

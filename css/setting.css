@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100%;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../font/yekan.woff);
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+:root {
+  --font-family: yekan;
+}
+.swiper-rtl .swiper-button-next,
+.swiper-rtl.swiper-button-next,
+.swiper-button-prev,
+.swiper-button-prev {
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.swiper-navigation-icon {
+  width: 10px !important;
+  height: 10px !important;
+}
+.swiper-navigation-icon path {
+  stroke: #7a7e84;
+  stroke-width: 2px;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+.swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #615f5f !important;
+  margin-left: 2px !important;
+  opacity: 0.5 !important;
+  transition: 300ms;
+}
+.swiper-pagination-bullet-active {
+  background-color: whitesmoke !important;
+  width: 20px !important;
+  height: 8px !important;
+  border-radius: 5px !important;
+  opacity: 1 !important;
+}
